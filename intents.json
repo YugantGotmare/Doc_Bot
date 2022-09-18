@@ -1,0 +1,172 @@
+{"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi","good day","greetings"],
+             "responses":["hello! I am docbot your personal medical assistance"]
+            },
+            {
+                "tag":"thanks",
+                "patterns":[
+                   "Thanks",
+                   "Thank you",
+                   "That's helpful"
+                ],
+                "responses":[
+                   "Happy to help!",
+                   "Any time!",
+                   "My pleasure"
+                ]
+             },
+         
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+             "responses":["you can call me Docbot!","I am Docbot!","I am Docbot your medical assistant"]
+            },
+            {
+             "tag":"common cold symptoms",
+             "patterns": ["Runny or stuffy nose",
+             "Sore throat",
+             "Cough",
+             "Congestion",
+             "Slight body aches or a mild headache",
+             "Sneezing",
+             "Low-grade fever",
+             "Generally feeling unwell (malaise)"],
+             "responses":["It seems that you are suffering from common cold. PREVENTATION THAT YOU MUST FOLLOW: Wash your hands, Avoid touching your face, Clean frequently used surfaces, Use hand sanitizers. SUGGESTED FOODS ARE: Garlic, Vitamin C_containing fruits, Leafy greens, Broccoli, Oatmeal, Spices, Chicken Soup. MEDICINES YOU CAN CONSUME: Dextromethorphan, Decongestant, Diphenhydramine, Crocin Cold & Flu Max"]
+            },
+                                                                                                                                                                                                                                                                                                                        
+            {
+             "tag":"fever symptoms",
+             "patterns":["Sweating",
+             "Chills and shivering",
+             "Headache",
+             "Muscle aches",
+             "Loss of appetite",
+             "Irritability",
+             "Dehydration",
+             "General weakness"], 
+             "responses":["It seems that you are suffering from fever. PREVENTATION THAT YOU MUST FOLLOW: Wash your hands, Cover your mouth when you cough and your nose when you sneeze, Clean frequently used surfaces, Avoid sharing cups, glasses, and eating utensils with other people. SUGGESTED FOODS ARE:Garlic, Vitamin C–containing fruits, Leafy greens, Broccoli, Oatmeal, Spices, Chicken Soup. MEDICINES YOU CAN CONSUME: acetaminophen, ibuprofen, aspirin, Crocin Cold & Flu Max "]
+            },
+            {
+             "tag":"Diabetes symptoms",
+             "patterns":["increased hunger",
+             "increased thirst",
+             "weight loss",
+             "frequent urination",
+             "blurry vision",
+             "extreme fatigue"],
+             "responses":["It seems that you are suffering from Diabetes. PREVENTATION THAT YOU MUST FOLLOW: Cut Sugar and Refined Carbs From Your Diet, Work Out Regularly, Drink Water as Your Primary Beverage, Lose Weight If You’re Overweight or Obese, Quit Smoking, Follow a Very-Low-Carb Diet, Watch Portion Sizes. SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs. MEDICINES YOU CAN CONSUME: Insulin, Amylinomimetic drug, Dipeptidyl peptidase-4 (DPP-4) inhibitor"]
+            },
+            {
+             "tag":"Depression symptoms",
+             "patterns":["feeling suicidal",
+             "suicidal",
+             "hallucinations auditory",
+             "feeling hopeless",
+             "weepiness",
+             "sleeplessness",
+             "motor retardation",
+             "irritable mood",
+             "blackout",
+             "mood depressed",
+             "hallucinations visual",
+             "worry",
+             "agitation",
+             "tremor",
+             "intoxication",
+             "verbal auditory hallucinations",
+             "energy increased",
+             "difficulty",
+             "nightmare",
+             "unable to concentrate",
+             "homelessness"],
+             "responses":["It seem that you are suffering from depression. PREVENTATION THAT YOU MUST FOLLOW: Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet. SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes. MEDICINES YOU CAN CONSUME :  brexpiprazole, quetiapine, olanzapine"]
+            },
+            {
+            "tag":"coronary heart disease",
+            "patterns":[
+            "pain chest",
+            "angina pectoris",
+            "shortness of breath",
+            "hypokinesia",
+            "sweat",
+            "sweating increased",
+            "pressure chest",
+            "dyspnea on exertion",
+            "orthopnea",
+            "chest tightness"
+            ],
+            "responses":[
+                "It looks like you may have coronary arteriosclerosis(Heart Disease). PREVENTATION THAT YOU MUST FOLLOW: Eat less of the foods that add to heart problems and more of the foods that protect the heart, Quit smoking, Become more active, and stay active, all through life. SUGGESTED FOODS ARE: Whole-grain breads and pasta, brown rice, whole-grain bagels, Fresh, frozen, baked, or steamed fruits and vegetables, Steamed, baked, or fresh foods, Fat-free milk, Fish, skinless poultry, lean cuts of meat (with fat trimmed away), soy products, Egg whites, egg substitutes, Olive oil or canola oil (in small amounts). MEDICINES YOU CAN CONSUME: Cholesterol drugs, Aspirin, Beta blockers, Calcium channel blockers, Angiotensin-converting enzyme (ACE) inhibitors and angiotensin II receptor blockers (ARBs), Nitroglycerin, Ranolazine"]
+            },
+            {
+                "tag":"dehydration",
+                "patterns":[
+                   "fever",
+                   "diarrhea",
+                   "vomiting",
+                   "hypotension",
+                   "nausea",
+                   "lightheadedness",
+                   "unwell",
+                   "mental status changes",
+                   "anorexia",
+                   "asthenia",
+                   "sensory discomfort",
+                   "syncope",
+                   "lethargy",
+                   "dizziness",
+                   "syncope",
+                   "blackout",
+                   "history of - blackout"
+                ],
+                "responses":[
+                   "It looks like you may have dehydration. PREVENTATION THAT YOU MUST FOLLOW: drink plenty of fluids and eat foods high in water such as fruits and vegetables. SUGGESTED FOODS ARE: Coconut Water, Broths and Soups, Watermelon, honeydew, and other melons, Milk. MEDICINES YOU CAN CONSUME:  "
+                ]
+             },
+            {
+                "tag":"pneumonia",
+                "patterns":[
+                   "cough",
+                   "fever",
+                   "decreased translucency",
+                   "shortness of breath",
+                   "rale",
+                   "productive cough",
+                   "pleuritic pain",
+                   "yellow sputum",
+                   "breath sounds decreased",
+                   "chill",
+                   "rhonchus",
+                   "green sputum",
+                   "non-productive cough",
+                   "wheezing",
+                   "haemoptysis",
+                   "distress respiratory",
+                   "tachypnea",
+                   "malaise",
+                   "night sweat"
+                ],
+                "responses":[
+                   "It looks like you may have pneumonia, PREVENTATION THAT YOU MUST FOLLOW: Wash Your Hand, Get Vaccinated, Don't Smoke, Be Aware of Your General Health. SUGGESTED FOODS ARE: Whole Grains, Protein- rich foods, Green Leafy Vegetables, Citrus fruits, Honey, Turmeric Milk, Ginger. MEDICINES YOU CAN CONSUME: levofloxacin, clarithromycin, ceftriaxone"
+                ]
+             },
+
+            {
+             "tag":"Asthma symptoms",
+             "patterns":["coughing",
+             "tightness in the chest",
+             "shortness of breath",
+             "difficulty talking",
+             "panic",
+             "fatigue"],
+             "responses":["It seem that you are suffering from Asthma. PREVENTATION THAT YOU MUST FOLLOW: Identify Asthma Triggers, Stay Away From Allergens, Avoid Smoke of Any Type. SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk. MEDICINES YOU CAN CONSUME : epinephrine, anticholinergic, Proair HFA"]
+            },
+            {
+             "tag":"Consultation",
+             "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+             "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+            }
+]}
